@@ -1,0 +1,3 @@
+<pbx-systems>
+	<pbx name='MY_AVAYA' hostname='xxx.xxx.xxx.xxx' port='22' login='my_login_name'  password='my_password' connection_type='ssh' atdt='' />
+</pbx-systems>
