@@ -3,7 +3,7 @@ check_avaya_error_by_ossi
 
 Query the alarms of the Definity Avaya S8xxx callmanager and check wheter the survivals are online
 
-Usage:
+`Usage:
 Checks AVAYA S8xx components for callmanager- or serverfailures using
 OSSI protocol. You need to create a station file
 (pbx_connection_auth.xml) to the folder /usr/local/nagios/etc/avaya/
@@ -40,10 +40,10 @@ serverlist for LISU (1=TRUE, 0=FALSE) Then use the File LSPServer.pm
 to add the active server in an array (only -S = LISU)
  
 -V (--version)
-Plugin version
+Plugin version`
 
 
 More informations
-=================
-The is working with the perl modul of Benjamin Roy <benroy@uw.edu> (http://tools.cac.washington.edu/2010/04/avaya-pbx-admin-web-service.html)
+-----------------
+The plugin is working with the perl modul of Benjamin Roy <benroy@uw.edu> (http://tools.cac.washington.edu/2010/04/avaya-pbx-admin-web-service.html)
 How to use the plugin read more in the gearman forum for Icinga / Nagios => http://www.monitoring-portal.org/wbb/index.php?page=Thread&threadID=28099
